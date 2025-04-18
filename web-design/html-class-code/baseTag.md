@@ -7,7 +7,7 @@
 ### Folder Structure
 ![alt text](baseTagfolderStructure.png)
 
-File name: [base.html]()
+**File name:** base.html
 ```html
 
 <!DOCTYPE html>
