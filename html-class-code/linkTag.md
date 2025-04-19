@@ -1,3 +1,4 @@
+[Back to home](README.md)
 # Link Tag
 
 ## HTML FILE
@@ -32,3 +33,5 @@ p{
 
 ## Output
 ![](linkTag.png)
+
+[Back to home](README.md)
