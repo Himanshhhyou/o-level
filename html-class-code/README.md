@@ -1,7 +1,7 @@
 # HTML Class Codes
 
 
-- [HTML Basic Structure](htmlBasicStructure.md)
-- [Base Tag](baseTag.md)
-- [Link Tag](linkTag.md)
+- [HTML Basic Structure](htmlBasicStructure.md)<br>
+- [Base Tag](baseTag.md)<br>
+- [Link Tag](linkTag.md)<br>
 
