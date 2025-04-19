@@ -3,4 +3,5 @@
 
 - [HTML Basic Structure](htmlBasicStructure.md)
 - [Base Tag](baseTag.md)
+- [Link Tag](linkTag.md)
 
