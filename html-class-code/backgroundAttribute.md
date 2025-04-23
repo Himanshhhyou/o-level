@@ -4,8 +4,6 @@
 **File name:** backgroundAttribute.html
 ```html
 <!DOCTYPE html>
-
-<!DOCTYPE html>
 <html>
     <head>
         <title>Attribute of body tag</title>
