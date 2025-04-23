@@ -2,7 +2,7 @@
 # background attribute
 
 ## Picture used in this webpage
-[Download Here](images/flower.jpg)
+[Download Here](images/flower.jpg)<hr>
 **File name:** backgroundAttribute.html
 ```html
 <!DOCTYPE html>
