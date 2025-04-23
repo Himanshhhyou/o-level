@@ -32,6 +32,6 @@ p{
 ```
 
 ## Output
-![](linkTag.png)
+![](images/linkTag.png)
 
 [Back to home](README.md)

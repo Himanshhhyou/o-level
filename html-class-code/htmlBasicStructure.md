@@ -20,6 +20,6 @@
 
 ```
 ## Output
-![alt text](htmlBasicStructure.png)
+![alt text](images/htmlBasicStructure.png)
 
 [Back to home](README.md)

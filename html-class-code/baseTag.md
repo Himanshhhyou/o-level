@@ -3,8 +3,8 @@
 
 ### Link for Used images in webpage
 
-- [Dog image](dog.jpg)
-- [Flower image](flower.jpg)
+- [Dog image](images/dog.jpg)
+- [Flower image](images/flower.jpg)
 
 ### Folder Structure
 ![alt text](baseTagfolderStructure.png)
@@ -28,6 +28,6 @@
 
 ```
 ## Output
-![alt text](baseTag.png)
+![alt text](images/baseTag.png)
 
 [Back to home](README.md)
