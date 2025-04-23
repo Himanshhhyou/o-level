@@ -11,5 +11,11 @@
 - [Style Tag](styleTag.md)<br><br>
 
 ## Body Tag
+### Attributes of body tag
+- [bgcolor](bgcolorAttribute.md)<br><br>
+- [text](textAttribute.md)<br><br>
+- [leftmargin](leftMarginAttribute.md)<br><br>
+- [topmargin](topMarginAttribute.md)<br><br>
+- [background](background.md)<br><br>
 
 
