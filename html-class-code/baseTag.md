@@ -7,7 +7,7 @@
 - [Flower image](images/flower.jpg)
 
 ### Folder Structure
-![alt text](baseTagfolderStructure.png)
+![alt text](images/baseTagfolderStructure.png)
 
 **File name:** base.html
 ```html
