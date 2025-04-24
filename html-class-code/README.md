@@ -17,5 +17,7 @@
 - [leftmargin](leftMarginAttribute.md)<br><br>
 - [topmargin](topMarginAttribute.md)<br><br>
 - [background](backgroundAttribute.md)<br><br>
+- [link , Alink , Vlink](linkAlinkVlink.md)<br><br>
 
-
+### Formatting Tags
+- [Formatting Tags](formattingTags.md)<br><br>
