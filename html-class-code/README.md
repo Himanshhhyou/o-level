@@ -19,5 +19,7 @@
 - [background](backgroundAttribute.md)<br><br>
 - [link , Alink , Vlink](linkAlinkVlink.md)<br><br>
 
-### Formatting Tags
+### Elements of body tag
 - [Formatting Tags](formattingTags.md)<br><br>
+- [Font Tags](fontTag.md)<br><br>
+
