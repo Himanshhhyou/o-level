@@ -20,6 +20,11 @@
 - [link , Alink , Vlink](linkAlinkVlink.md)<br><br>
 
 ### Elements of body tag
-- [Formatting Tags](formattingTags.md)<br><br>
-- [Font Tags](fontTag.md)<br><br>
+- [formatting Tags](formattingTags.md)<br><br>
+- [font Tag](fontTag.md)<br><br>
+- [heading Tags](headingTag.md)<br><br>
+- [hr Tag](hrTag.md)<br><br>
+- [pre Tag](preTag.md)<br><br>
+- [q Tag](qTag.md)<br><br>
+
 
