@@ -26,5 +26,6 @@
 - [hr Tag](hrTag.md)<br><br>
 - [pre Tag](preTag.md)<br><br>
 - [q Tag](qTag.md)<br><br>
-
+- [tt Tag](ttTag.md)<br><br>
+- [anchor Tag](anchorTag.md)<br><br>
 
