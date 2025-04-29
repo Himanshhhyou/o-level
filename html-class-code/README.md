@@ -28,4 +28,6 @@
 - [q Tag](qTag.md)<br><br>
 - [tt Tag](ttTag.md)<br><br>
 - [anchor Tag](anchorTag.md)<br><br>
+- [img Tag](imgTag.md)<br><br>
+- [image as a link](imgAsALink.md)<br><br>
 

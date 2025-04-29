@@ -48,5 +48,25 @@
 ## Output
 ![](images/internalAnchorTag.png)
 
+# Local Link Anchor Tag
+
+**File name:** localAnchorTag.html
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Local Link with anchor tag</title>
+    </head>
+    <body>
+        <h1>Local links with anchor tag</h1>
+        <a href="formattingTags.html">Open Formatting Tags file</a><br>
+    </body>
+</html>
+```
+
+
+## Output
+![](images/localAnchorTag.png)
+
 
 [Back to home](README.md)
