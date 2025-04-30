@@ -30,4 +30,10 @@
 - [anchor Tag](anchorTag.md)<br><br>
 - [img Tag](imgTag.md)<br><br>
 - [image as a link](imgAsALink.md)<br><br>
+- [comment in html](comment.md)<br><br>
+<hr>
+
+### Table in HTML
+- [A simple table](tableTag1.md)<br><br>
+
 
