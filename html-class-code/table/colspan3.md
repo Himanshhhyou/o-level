@@ -24,6 +24,6 @@
 
 
 ## Output
-![](images/colspan1.png)
+![](images/colspan3.png)
 
 [Back to home](table.md)
