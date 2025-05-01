@@ -1,4 +1,4 @@
-[Back to home](README.md)
+[Back to home](table.md)
 # Table Tag
 
 **File name:** tableTag1.html
@@ -38,6 +38,6 @@
 
 
 ## Output
-![](images/tableTag1.png)
+![](images/simpleTable.png)
 
-[Back to home](README.md)
+[Back to home](table.md)
