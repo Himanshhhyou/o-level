@@ -31,6 +31,9 @@
 - [img Tag](imgTag.md)<br><br>
 - [image as a link](imgAsALink.md)<br><br>
 - [comment in html](comment.md)<br><br>
+
+<hr>
+
 - [Table](table/table.md)<br><br>
 <hr>
 
