@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Code Viewer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" />
+  <style>
+    :root {
+      --bg-color: #f8f9fa;
+      --accent: #007bff;
+      --text-color: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+    }
+
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    main {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #ffffff;
+      border-right: 1px solid #ddd;
+      padding: 1rem;
+    }
+
+    .sidebar h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .file-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .file-item {
+      padding: 0.7rem;
+      background-color: #f1f1f1;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .file-item:hover {
+      background-color: var(--accent);
+      color: white;
+    }
+
+    .content {
+      flex: 1;
+      padding: 1rem;
+      overflow-y: auto;
+    }
+
+    pre {
+      padding: 1rem;
+      background: #0d1117;
+      color: white;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>📄 Code Viewer</header>
+
+<main>
+  <aside class="sidebar">
+    <h2>📂 Files</h2>
+    <div class="file-list">
+      <div class="file-item" onclick="loadCode('01_inline.html')">01_inline.html</div>
+      <div class="file-item" onclick="loadCode('02_internal.html')">02_internal.html</div>
+      <div class="file-item" onclick="loadCode('03_external.html')">03_external.html</div>
+      <div class="file-item" onclick="loadCode('03_style.css')">03_style.css</div>
+      <div class="file-item" onclick="loadCode('04_specificity.html')">04_specificity.html</div>
+      <div class="file-item" onclick="loadCode('04_specificity.css')">04_specificity.css</div>
+    </div>
+  </aside>
+
+  <section class="content">
+    <h2>📑 Code Preview</h2>
+    <pre><code id="code-block" class="html"></code></pre>
+  </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>
+  async function loadCode(filename) {
+    const res = await fetch(filename);
+    const text = await res.text();
+    const codeBlock = document.getElementById("code-block");
+    codeBlock.textContent = text;
+    hljs.highlightElement(codeBlock);
+  }
+</script>
+
+</body>
+</html>
